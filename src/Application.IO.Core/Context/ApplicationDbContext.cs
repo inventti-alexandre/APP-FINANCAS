@@ -16,7 +16,7 @@ namespace Application.IO.Core.Context
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser, IdentityRole<Guid>, Guid>
     {
         public virtual DbSet<AdministratorSystem> AdministratorsSystem { get; set; }
-        public virtual DbSet<PostalCodeAdress> PostalCodesAdress { get; set; }
+        //public virtual DbSet<PostalCodeAdress> PostalCodesAdress { get; set; }
 
         public virtual DbSet<Customer> Customers { get; set; }
 
@@ -26,7 +26,7 @@ namespace Application.IO.Core.Context
         {
             //Sistema
             modelBuilder.AddConfiguration(new AdministratorSystemMapping());
-            modelBuilder.AddConfiguration(new PostalCodeAdressMapping());
+            //modelBuilder.AddConfiguration(new PostalCodeAdressMapping());
 
             //Usuários não adm
             modelBuilder.AddConfiguration(new CustomerMapping());

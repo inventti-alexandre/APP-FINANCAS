@@ -21,6 +21,9 @@ namespace Application.IO.Core.Identity.Models
         [DataType(DataType.DateTime)]
         public DateTime? UserEmailConfirm { get; set; }
 
+        [Required]
+        public bool LogicalDeleted { get; set; }
+
         public ApplicationUser()
         {
             UserCreated = DateTime.Now;

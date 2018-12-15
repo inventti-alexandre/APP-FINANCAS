@@ -20,7 +20,7 @@ namespace Application.IO.Core.Identity.Services
 
             MailMessage mMessage = new MailMessage()
             {
-                From = new MailAddress("noreply@advapp.com.br", "Adv - App"),
+                From = new MailAddress("noreply@molia.com.br", "Molia"),
                 IsBodyHtml = true
             };
 
