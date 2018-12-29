@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+/* .border-bottom {
+    border-bottom: 1px solid #dee2e6!important;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+} */
+
+.input-margin{
+    margin: 5px 0 0 0;
+}
